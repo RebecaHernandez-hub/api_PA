@@ -18,7 +18,7 @@ from extensions import db_s, jwt
 app = Flask(__name__)
 
 # 1.- Configuramos la app para conectarse a una db
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres.loimcqxxexnbaykzozlt:QcDczYaTx2x4pRDc@aws-0-us-west-1.pooler.supabase.com:6543/postgres'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres.loimcqxxexnbaykzozlt:------@aws-0-us-west-1.pooler.supabase.com:6543/postgres'
 
 # 2.- Desactivamos el seguimiento de modificaciones
 app.config['SQLACHEMY_TRACK_MODIFICATIONS'] = False
